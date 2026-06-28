@@ -12,6 +12,14 @@ struct CurvePointWrapper
 template<typename T>
 struct CurveDataWrapper
 {
+    CurveDataWrapper()
+    {
+        curveData.name = Red::GetTypeName<Red::CurveData<T>>();
+        curveData.valueType = Red::GetType<T>();
+        curveData.interpolationType = Red::curveEInterpolationType::EIT_Linear;
+        curveData.linkType = Red::curveESegmentsLinkType::ESLT_Normal;
+    }
+
     [[nodiscard]] Red::curveEInterpolationType GetInterpolationType() const
     {
         return curveData.interpolationType;
