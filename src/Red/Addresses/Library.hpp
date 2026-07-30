@@ -152,6 +152,8 @@ constexpr uint32_t SoundBankManager_ReadSoundBanksJson = 3961524856;
 constexpr uint32_t TagSystem_AssignTag = 1239092911;
 constexpr uint32_t TagSystem_UnassignTag = 1875775378;
 
+constexpr uint32_t VehicleGarageComponent_LoadSummonSetup = 1159928678;
+
 constexpr uint32_t VehicleController_ToggleAuxLights = 1883248814;
 
 constexpr uint32_t VehicleSystem_ToggleGarageVehicle = 3027836941;

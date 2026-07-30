@@ -202,6 +202,7 @@
 #include <RED4ext/Scripting/Natives/Generated/vehicle/Controller.hpp>
 #include <RED4ext/Scripting/Natives/Generated/vehicle/ELightMode.hpp>
 #include <RED4ext/Scripting/Natives/Generated/vehicle/ELightType.hpp>
+#include <RED4ext/Scripting/Natives/Generated/vehicle/GarageComponent.hpp>
 #include <RED4ext/Scripting/Natives/Generated/vehicle/GarageVehicleID.hpp>
 #include <RED4ext/Scripting/Natives/Generated/work/WorkEntryId.hpp>
 #include <RED4ext/Scripting/Natives/Generated/work/WorkspotInstance.hpp>

@@ -42,6 +42,7 @@
 #include "App/Mesh/MeshAppearanceEx.hpp"
 #include "App/Mesh/MeshEx.hpp"
 #include "App/Physics/TraceResultEx.hpp"
+#include "App/Player/VehicleGarageComponentEx.hpp"
 #include "App/Player/VehicleSystemEx.hpp"
 #include "App/Player/WardrobeSystemEx.hpp"
 #include "App/Quest/GraphSocketDefinitionEx.hpp"
